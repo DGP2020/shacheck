@@ -1,8 +1,8 @@
-# shakti_fsim
+# shakti_fsim (previously known as shacheck)
 
 A Blue Team File System Integrity Monitor for Linux, backed by **ShaktiDB** (a PostgreSQL-compatible database).
 
-`shakti_fsim` crawls a directory, hashes every file with SHA-256, and stores the result as a known-good baseline. On later runs it re-scans the same directory and flags anything **modified**, **new**, or **deleted** — with extra-loud desktop alerts when the change touches a sensitive system path like `/etc/passwd` or `/etc/shadow`.
+`shakti_fsim (aka shacheck)` crawls a directory, hashes every file with SHA-256, and stores the result as a known-good baseline. On later runs it re-scans the same directory and flags anything **modified**, **new**, or **deleted** — with extra-loud desktop alerts when the change touches a sensitive system path like `/etc/passwd` or `/etc/shadow`.
 
 ## Features
 
