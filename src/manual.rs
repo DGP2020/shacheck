@@ -130,5 +130,5 @@ run:
 \(em all other filesystem anomalies. Grouped by parent directory.
 .RE
 .SH AUTHOR
-Written by an Undergraduate Blue Team Specialist."#
+Daniel (github.com/DGP2020)"#
 }
