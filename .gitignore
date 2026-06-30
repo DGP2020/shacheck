@@ -22,3 +22,7 @@ target
 
 
 *.db
+/target
+Cargo.lock
+*.swp
+.env
