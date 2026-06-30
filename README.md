@@ -133,6 +133,4 @@ src/
 └── manual.rs              Man page content
 ```
 
-## License
-
-Add your license of choice here.
+MIT License
